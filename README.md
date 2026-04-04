@@ -9,6 +9,7 @@ AI학습
 ## GPU 초기 설정
 <details>
 <summary> <h3> Ubuntu </h3> </summary>
+
 ### Ubuntu
 
 1. 그래픽 드라이버 설치
