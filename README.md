@@ -48,4 +48,41 @@ pip install --upgrade pip
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 
+4. vscode 설치
+``` bash 
+sudo snap install --classic code
+```
+</details>
+
+<details>
+<summary> <h3> PowerShell(PS) </h3> </summary>
+
+### PowerShell(PS)
+
+윈도우 환경에서 진행합니다.
+
+1. 그래픽 드라이버 설치
+
+[NVIDIA 홈페이지](https://www.nvidia.com/ko-kr/drivers/)
+
+2. 가상환경 생성
+
+``` powershell
+# 가상환경 생성
+python -m venv "가상환경 이름"
+
+# 가상환경 활성화
+# (cmd 기준)
+"가상환경 이름"\Scripts\activate
+# (PowerShell 기준)
+.\"가상환경 이름"\Scripts\Activate.ps1
+```
+
+3. pytorch 설치
+
+``` powershell
+# CUDA 12.1 버전용 PyTorch 설치
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```
+
 </details>
